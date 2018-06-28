@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signUpButton"
+        android:onClick="signUp"/>
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logIn"
+        android:textSize="50sp"
+        android:layout_marginTop="100dp"
+        android:padding="10dp"
+        android:textColor="#b71c1c"/>
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:inputType="textPersonName"
+        android:textColor="#b71c1c"
+        android:hint="@string/user"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="#b71c1c"
+        android:hint="@string/pass" />
+
+    <Button
+        android:id="@+id/logIn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#a12729"
+        android:layout_gravity="center"
+        android:text="@string/logInButton"
+        android:onClick="logging"/>
+
+</LinearLayout>

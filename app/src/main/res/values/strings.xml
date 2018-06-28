@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">AUST CGPA Calculator</string>
+    <string name="logIn">Welcome</string>
+    <string name="user">User Name</string>
+    <string name="pass">Password</string>
+    <string name="logInButton">Log In</string>
+    <string name="signUpButton">Sign Up</string>
+
+    <string-array name="names">
+        <item>"CSE"</item>
+        <item>"EEE"</item>
+    </string-array>
+
+    <string-array name="semester">
+        <item>"1.1"</item>
+        <item>"1.2"</item>
+        <item>"2.1"</item>
+        <item>"2.2"</item>
+        <item>"3.1"</item>
+        <item>"3.2"</item>
+        <item>"4.1"</item>
+        <item>"4.2"</item>
+    </string-array>
+
+    <string-array name="cg">
+        <item>"4.0"</item>
+        <item>"3.75"</item>
+        <item>"3.5"</item>
+        <item>"3.25"</item>
+        <item>"3.0"</item>
+        <item>"2.75"</item>
+        <item>"2.5"</item>
+        <item>"2.25"</item>
+        <item>"2.0"</item>
+    </string-array>
+
+    <string name="csesubjects11">"HUM\nCSE\nChemistry\nmath\nPhysics\nHUM Lab\nCSE Lab\nFundamental\nphysics Lab\nNone"</string>
+
+    <string name="csesubjects12">"Java\nDM\nEEE\nMecha\nMath\njava Lab\nEEE Lab\nSD\nMecha drawing\nNone"</string>
+
+    <string name="csesubjects21">DS\nDLD\nMath\nEEE\nHUM\nDS Lab\nEEE Lab\nDLD Lab\nSD\nNone"</string>
+
+    <string name="csesubjects22">"Algorithom\nDEPT\nMath\nCA\nNumerical\nAlgo lab\nNumerical Lab\nSD\nDEPT Lab"</string>
+
+    <string name="csesubjects31">"Databese\nEconomics\nCMath\nMicro\nDSD\nDatabase Lab\nDSD Lab\nSD\nMicro Lab"</string>
+    <string name="csesubjects32">"C Math\nDC\nOS\nMBSD\nISD\nOS Lab\nISD Lab\nSD Lab\nMSD\nNone"</string>
+    <string name="csesubjects41">"Network\nAI\nIPE\nnDDB\nCompiler\nProject and Thesis\Compiler Lab\nComputer network Lab\nAI lab\nDDB Lab"</string>
+    <string name="csesubjects42">"Graphics\nPattern\nNetwork Prog\nTelecomm\nDIP\nProject and Thesis2\nDIP Lab\nNP Lab\nPR Lab\nGraphics Lab"</string>
+    <string name="eeesubjects11">"EEE\nPhysics\nChemistry\nMath\nME\nPhysics Lab\nChemistry Lab\nEEE Lab\nME Lab"</string>
+    <string name="eeesubjects12">"EEE\nPhysics\nCE\nMath1203\nMath1213\nEEE1202 lab\nCE Lab\nPhysics Lab\nEEE1210 Lab"</string>
+    <string name="eeesubjects21">"EEE2105\nEEE2109\nMath\nHUM\nEEE2103\nEEE2106 Lab\nEEE2110 Lab\nEEE2104 Lab\nHUM Lab"</string>
+    <string name="eeesubjects22">"EEE2105\nEEE2211\nEEE2203\nHUM\nMath\nEEE2206 Lab\nEEE2210Lab\nEEE2212 Lab\nEEE2204 Lab"</string>
+    <string name="eeesubjects31">"EEE3117\nEEE3107\nEEE3113\nEEE3103\nHUM\nEEE3104 Lab\nEEE3110 Lab"</string>
+    <string name="eeesubjects32">"EEE3209\]nEEE3205\nEEE3203\nmEEE3217\nEEE3207\nEEE3210 Lab\nEEE3208 Lab\nEEE3218 Lab"</string>
+    <string name="eeesubjects41">"EEE4155\nEEE4133\nEEE41405\nEEE4153\nEEE4131\EEE4138 Lab\nEEE4154 Lab\nEEE4106 Lab\nEEE4134 Lab"</string>
+    <string name="eeesubjects42">"HUM\nCSE\nEEE4237\n4227\nEEE4251\nEEE4228 Lab\nEEE4252 Lab"</string>
+
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/obj1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#071290"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/obj2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#071290"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/subname"
+        android:text="Subject"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"/>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_below="@+id/subname"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:id="@+id/subjects"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:textSize="26dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/sub1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <Spinner
+                android:id="@+id/sub2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Spinner
+                android:id="@+id/sub3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Spinner
+                android:id="@+id/sub4"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Spinner
+                android:id="@+id/sub5"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Spinner
+                android:id="@+id/sub6"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Spinner
+                android:id="@+id/sub7"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Spinner
+                android:id="@+id/sub8"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Spinner
+                android:id="@+id/sub9"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Spinner
+                android:id="@+id/sub10"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout2"
+        android:layout_marginTop="62dp">
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:text="Calculate"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:text="Save"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+</RelativeLayout>
